@@ -44,9 +44,9 @@ function checkAnswers (Quistion1)
 if (moreQuistions==true){
     let Quistion1 = prompt("Are you UI/UX Student ?").toLowerCase();
    
-    let Quistion2 = prompt("Do you love IT ?").toLowerCase();
+    let Quistion2 = prompt("Do you love IT ? ").toLowerCase();
 
-    let Quistion3 = prompt("DO you finish the assignment ?").toLowerCase();
+    let Quistion3 = prompt("DO you finish the Assignment ?").toLowerCase();
 
     Answers=[checkAnswers(Quistion1),checkAnswers(Quistion2),checkAnswers(Quistion3)]
 
