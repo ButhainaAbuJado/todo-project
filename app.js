@@ -7,7 +7,7 @@ let userGender =  prompt(`Enter your gender \n male/female ` ).toLowerCase();
            alert(`Age can not be <=0`);
     }
     
-    let confirmaion = confirm(`Are you want to skip the welcoming message?\npress ok`);
+    let confirmaion = confirm(`Are you want to skip the welcoming message? \n press ok`);
 if (confirmaion==false) {
     if (userGender == 'male')
         {
